@@ -1,0 +1,129 @@
+/*header start*/
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  background-image: url(Untitled\ design.png);
+  height: 100vh;  
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+header{
+    
+    color: azure;
+    width: 100%;
+    
+  display: flex;
+
+}
+.name{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    padding: 20px;
+}
+.text{
+position: absolute;
+top: 0;
+width: 100%;
+ display: flex; 
+ justify-content: flex-end;
+padding: px;
+}
+.text ul{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: px;
+}
+.text ul li{
+    list-style: none;
+    margin: 20px;
+}
+.text ul li a{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(131, 136, 139);
+    text-decoration: none;
+}
+.text ul li :hover{
+  color: rgb(1, 247, 255);
+}
+.text ul li button{
+    background-color: #4380eb;
+    border: none;
+    outline: none;
+    padding: 8px 15px;
+    color: aliceblue;
+    font-size: 15px;
+    font-weight: bolder;
+    border-radius: 3px;
+    cursor: pointer;
+}
+/*header end*/
+/*medil start*/
+body{
+    margin: 0;
+    position: 0;
+    justify-content: center;
+    align-items: center;
+    
+}
+.searchbox{
+    margin: 100px;
+    position: relative;
+    left: 630px;
+    top: 90px;
+}
+.searchbox input{
+    width: 350px;
+font-size: 18px;
+padding: 10px 20px;
+border-radius: 25px;
+border: none;
+box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+
+padding-right: 100px;
+}
+
+
+
+/*medil end*/
+/*footer start*/
+footer{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    backdground-color: rgb(243, 232, 218);
+    width: 100%;
+    color: white;
+}
+.nnmm{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+}
+.mmnn{
+    width: 700px;
+    text-align: center;
+    margin: 0 auto;
+position: relative;
+top: 10px;
+}
+.icon{
+    font-size: 40px;
+    position: relative;
+    top: 10px;
+    padding: 10px;
+}
+.copy{
+ font-size: 30px;
+position: relative;
+top: 10px;
+}
+/*footer end*/
